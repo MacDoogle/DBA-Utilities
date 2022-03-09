@@ -1,2 +1,2 @@
 # DBA-Utility
-A database to store commonly used DBA processes
+A database project to store commonly used DBA processes
