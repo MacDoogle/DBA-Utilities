@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DBA Database", "DBA Database\DBA Database.sqlproj", "{EDB495CE-0352-4A14-A667-51A26985D5F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{FF252754-C0BD-4285-9C70-BF3EE751AD52}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Get-AutoGrowAndShrinkEvents.ps1 = Scripts\Get-AutoGrowAndShrinkEvents.ps1
+		MirrorCMD.sql = MirrorCMD.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB495CE-0352-4A14-A667-51A26985D5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB495CE-0352-4A14-A667-51A26985D5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB495CE-0352-4A14-A667-51A26985D5F4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EDB495CE-0352-4A14-A667-51A26985D5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB495CE-0352-4A14-A667-51A26985D5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB495CE-0352-4A14-A667-51A26985D5F4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01E79E79-FCFB-4EC1-B3D2-5869CB5646A6}
+	EndGlobalSection
+EndGlobal
